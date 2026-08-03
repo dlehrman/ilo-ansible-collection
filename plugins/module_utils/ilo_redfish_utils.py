@@ -19,7 +19,7 @@ from __future__ import absolute_import, division, print_function
 
 __metaclass__ = type
 
-from ansible_collections.community.general.plugins.module_utils.redfish_utils import (
+from ansible_collections.community.general.plugins.module_utils._redfish_utils import (
     RedfishUtils,
 )
 
