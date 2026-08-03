@@ -126,7 +126,7 @@ CATEGORY_COMMANDS_ALL = {
     "UpdateService": ["Flashfwpkg", "UploadComponent"]
 }
 
-from ansible_collections.community.general.plugins.module_utils.ilo_redfish_utils import iLORedfishUtils
+from ansible_collections.community.general.plugins.module_utils._ilo_redfish_utils import iLORedfishUtils
 from ansible.module_utils.basic import AnsibleModule
 from ansible.module_utils.common.text.converters import to_native
 

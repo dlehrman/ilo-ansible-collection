@@ -116,7 +116,7 @@ CATEGORY_COMMANDS_ALL = {"Sessions": ["GetiLOSessions"]}
 CATEGORY_COMMANDS_DEFAULT = {"Sessions": "GetiLOSessions"}
 
 from ansible.module_utils.basic import AnsibleModule
-from ansible_collections.community.general.plugins.module_utils.ilo_redfish_utils import (
+from ansible_collections.community.general.plugins.module_utils._ilo_redfish_utils import (
     iLORedfishUtils,
 )
 

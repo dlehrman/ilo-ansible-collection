@@ -32,7 +32,7 @@ from datetime import datetime
 
 __metaclass__ = type
 
-from ansible_collections.community.general.plugins.module_utils.redfish_utils import RedfishUtils
+from ansible_collections.community.general.plugins.module_utils._redfish_utils import RedfishUtils
 from ansible.module_utils.basic import missing_required_lib
 
 HAS_REDFISH = True
